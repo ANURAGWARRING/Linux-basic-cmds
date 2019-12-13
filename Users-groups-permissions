@@ -1,0 +1,8 @@
+#add user
+sudo adduser warring 
+#add group
+ sudo addgroup WarringUsers
+#add user to group
+ sudo adduser warring WarringUsers
+#all the info is stored in 
+etc/group
